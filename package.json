@@ -3,6 +3,9 @@
   "version": "0.7.7",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "build": "node build.js",
     "start": "node index.js",
