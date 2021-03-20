@@ -11,13 +11,11 @@
     "env": {
         "ADMIN_KEY": {
             "description": "A password for accessing the admin settings of Foundry",
-            "required": true,
-            "value":"S3r3n1ty"
+            "required": true
         },
         "FOUNDRY_LICENSE": {
             "description": "Your Foundry license code. Find on https://foundryvtt.com/ under your username > Purchased Licenses",
-            "required": true,
-            "value": "HO4G-4CZB-URG9-IO99-JMUI-IYTP"
+            "required": true
         },
         "FOUNDRY_VERSION": {
             "description": "The Foundry version to use. Find latest at https://foundryvtt.com/releases/",
@@ -26,13 +24,11 @@
         },
         "GITHUB_REPO": {
             "description": "GitHub repository name to store Foundry data in. E.g. username/foundry-data",
-            "required": true,
-            "value": "The_E/foundry_data"
+            "required": true
         },
         "GITHUB_TOKEN": {
             "description": "GitHub personal access token. Generate with 'repo' scope at https://github.com/settings/tokens/new",
-            "required": true,
-            "value": "806f2a3ca311e714d086f80404395a0e5303dfc7"
+            "required": true
         }
     }
 }
